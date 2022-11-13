@@ -1,0 +1,48 @@
+.CodeController {
+	display: grid;
+	width: 600px;
+	grid-auto-rows: max-content
+}
+
+.tabs {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: end;
+	/* height: 50px; */
+	/* gap: 1px; */
+}
+
+.tabs > div {
+	/* TODO : center the text horizontally*/
+	/* TODO : color it in properly*/
+	display: grid;
+	background-color: #e4e4e4;
+	width: 120px;
+	height: 28px;
+	/* padding-bottom: 2px; */
+	text-align: center;
+	align-items: center;
+	/* padding-top: 4px; */
+	border-radius: 6px 6px 0px 0px;
+}
+
+.tabs > .active {
+	/* TODO : create an active  style for the selected tab*/
+	/* TODO : create a div that covers up the line under the selected tab*/
+	background-color: #F1F7F9;
+	border: 1.5px solid #abe1f3;
+	border-bottom: 0px solid #F1F7F9;
+}
+
+.dashboard {
+	display: grid;
+	background-color: #F1F7F9;
+	border: 1.5px solid #abe1f3;
+	/* border-radius: 6px 0px 6px 6px; */
+	height: 350px;
+}
+
+.dashboard-body {
+	padding: 18px;
+	color: red;
+}
