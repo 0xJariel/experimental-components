@@ -1,0 +1,20 @@
+/* TODO move the display to the first column */
+/* TODO make the display/text/button responsive */
+.Display {
+	
+}
+
+.gradient-background {
+	width: 400px;
+	height: 400px;
+	background-image: var(--gradient);
+	background-size: 300% 300%;
+  	animation: bg-animation 5s infinite;
+}
+
+@keyframes bg-animation {
+  0% {background-position: top;}
+  50% {background-position: bottom;}
+  100% {background-position: top;}
+}
+

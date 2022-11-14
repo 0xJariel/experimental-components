@@ -1,14 +1,16 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import CodeController from "./components/CodeController/CodeController";
+import Folder from "./components/Folder/Folder";
+import Display from "./components/Display/Display";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <CodeController />
+      <Folder />
+      <Display />
     </div>
   );
 }

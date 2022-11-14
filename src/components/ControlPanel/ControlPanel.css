@@ -1,0 +1,11 @@
+.control-section {
+	display: flex;
+	gap: 5px;
+	padding-top: 15px;
+	align-items: center;
+}
+
+.control-section > .options {
+	display: flex;
+	gap: 10px;
+}

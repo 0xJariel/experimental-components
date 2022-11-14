@@ -47,3 +47,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+:root {
+  --gradient: linear-gradient(
+    180deg, 
+    #845ec2,
+    #d65db1,
+    #ff6f91
+  );
+}
